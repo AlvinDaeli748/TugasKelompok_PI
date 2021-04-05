@@ -7,7 +7,7 @@
 
   <body>
     <h3>Login Admin</h3>
-    <form action="add_data.php" method="POST">
+    <form action="login.php" method="POST">
         <table>
           <tr>
               <td>Username</td>
