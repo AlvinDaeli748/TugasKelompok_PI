@@ -1,3 +1,4 @@
+<?php include "Connection/conn.php" ?>
 <html>
   <head>
     <title>
@@ -14,12 +15,27 @@
         </form>
         <table align="center">
             <tr>
-                <th>Id</th>
+                <th>No</th>
                 <th>Nama</th>
-                <th>Username</th>
-                <th>Email</th>
-                <th colspan="2">Aksi</th>
+                <th>NIM</th>
+                <th>Waktu Presensi</th>
             </tr>
+            </tr>
+                    <?php
+                        $data = $db->prepare("SELECT nama,nim,timestamp FROM data");
+                        $data->execute();
+                        
+                        $hasil = $data;
+                        $a = 1;
+                        foreach($hasil as $x):
+                    ?>
+                <tr>
+                    <td><?php echo $a++ ?></td>
+                    <td><?php echo $x['nama']; ?></td>
+                    <td><?php echo $x['nim']; ?></td>
+                    <td><?php echo $x['timestamp']; ?></td>
+                </tr>
+                    <?php endforeach; ?>
         </table>
 
   </body>
