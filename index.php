@@ -10,6 +10,7 @@
 
   <body>
     <!-- Register Section -->
+    <div class="login-box">
     <h3>Isi Presensi Disini</h3>
     <form action="add_data.php" method="POST">
         <table>

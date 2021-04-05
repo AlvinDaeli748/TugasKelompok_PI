@@ -7,6 +7,7 @@
   </head>
 
   <body>
+    <div class="login-box">
     <h3>Login Admin</h3>
     <form action="login.php" method="POST">
         <table>
