@@ -1,3 +1,7 @@
+<!DOCTYPE html>
 <html>
-    <p>Hello World</p>
+    <title>Form Presensi</title>
+    <body>
+        Dalam pengembangan.
+    </body>
 </html>
