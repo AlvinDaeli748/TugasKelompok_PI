@@ -6,8 +6,6 @@
   </head>
 
   <body>
-    <p>Hello World</p>
-
     <!-- Register Section -->
     <h3>Silahkan Register</h3>
     <form action="register.php" method="POST">
@@ -19,21 +17,9 @@
                 </td>
             </tr>
             <tr>
-                <td>Username</td>
+                <td>NIM</td>
                 <td>
-                    <input type="text" name="username" value="" minlength="8" placeholder="e.g alvin123" required>
-                </td>
-            </tr>
-            <tr>
-                <td>E-Mail</td>
-                <td>
-                    <input type="email" name="email" value="" placeholder="e.g alvin@example.com"
-                </td>
-            </tr>
-            <tr>
-                <td>Password</td>
-                <td>
-                    <input type="password" name="password" minlength="8" maxlength="16"  placeholder="minimum 8 characters" required>
+                    <input type="text" name="username" value="" minlength="9" maxlength="9" placeholder="masukkan NIM" required>
                 </td>
             </tr>
             <tr>
