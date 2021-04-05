@@ -1,14 +1,18 @@
 <html>
   <head>
     <title>
-      Form
+      View Data Presensi
     </title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
         <!-- Read Data from Database -->
         <h3>Data dari Database</h3>
-        <table>
+        <form onsubmit="return confirm('Apakah Anda yakin ingin Logout ?');" action="logout.php">
+             <input type="submit" value="Logout">
+        </form>
+        <table align="center">
             <tr>
                 <th>Id</th>
                 <th>Nama</th>
