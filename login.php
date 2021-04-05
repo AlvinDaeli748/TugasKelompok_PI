@@ -8,4 +8,10 @@
     ));
     $row = $adm->fetch(PDO::FETCH_ASSOC);
 
+    if(empty($row['username'])){
+        header("location:admin_login.php");
+    } else {
+        header("location:admin_view.php");
+    }
+
 ?>
