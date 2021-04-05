@@ -1,24 +1,25 @@
 <html>
   <head>
     <title>
-      Form
+      Login Admin
     </title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
-    <h3></h3>
-    <form action="register.php" method="POST">
+    <h3>Login Admin</h3>
+    <form action="login.php" method="POST">
         <table>
           <tr>
               <td>Username</td>
               <td>
-                  <input type="text" name="username" value="" minlength="8" placeholder="username" required>
+                  <input type="text" name="username" value="" placeholder="username" required>
               </td>
           </tr>
             <tr>
                 <td>Password</td>
                 <td>
-                    <input type="password" name="password" minlength="8" maxlength="16"  placeholder="password" required>
+                    <input type="password" name="password" placeholder="password" required>
                 </td>
             </tr>
             <tr>
